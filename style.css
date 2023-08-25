@@ -1,0 +1,131 @@
+/* Google font */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header section */
+nav {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px) saturate(15%);
+    z-index: 999;
+}
+img.logo {
+    width: 120px;
+}
+input.search-box {
+    width: 300px;
+    border: none;
+}
+button.search-btn {
+    background-color: #FD7E14;
+    color: white;
+    border: none;
+    left: 203px;
+}
+
+/* Slider section */
+.slider {
+    background-color: #f7f7f7f7;
+    padding-top: 100px;
+}
+.slider-header {
+    font-size: 65px;
+    font-weight: 600;
+}
+.orange-text {
+    color: #FD7E14;
+}
+button.order-now-btn {
+    background-color: #FD7E14;
+    color: white;
+}
+.slider-image {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Catergory products sectoin */
+.category-product {
+    padding-bottom: 100px;
+}
+.card-item {
+    background-color: #f7f7f7f7;
+    border: none;
+    text-align: center;
+    transition: .5s;
+    padding-bottom: 20px;
+}
+.card-item:hover {
+    transform: scale(1.1);
+}
+.card img {
+    height: 200px;
+    padding: 15px;
+    object-fit: contain;
+    margin: auto;
+    transition: .5s;
+}
+
+/* Banner section */
+.banner {
+    padding-bottom: 100px;
+}
+.item {
+    background-color: #ececec;
+}
+
+/* Latest products & Most sold products section */
+.latest-products,.most-sold-products {
+    background-color: #f7f7f7f7;
+    padding-bottom: 100px;
+}
+.card-product {
+    border: none;
+    text-align: center;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+.card-image {
+    width: 250px;
+}
+.card-product:hover .card-image {
+    transform: scale(1.1);
+}
+
+/* Promotion banner section */
+.banner-bg {
+    width: 84%;
+    height: 400px;
+    background-image: url(images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.banner-title {
+    color: #198754;
+    width: 30vw;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 4.5vw;
+    font-weight: 600;
+}
+
+/* Footer section */
+.footer-list {
+    padding-left: 20px;
+}
+.footer-list li {
+    transition: .5s;
+}
+.footer-list li:hover{
+    color: #198754;
+    padding-left: 10px;
+    cursor: pointer;
+}
